@@ -1,12 +1,8 @@
 # NewsRn
 An example based on React Native
-由于受限制于接口，没有后台，只是自己学习时候的做的。
 
 
 ![NewsRn icon](./images/1.png)
-![NewsRn icon](./images/2.png)
-![NewsRn icon](./images/3.png)
-![NewsRn icon](./images/5.png)
 
 ## Set up
 1. **Clone the repo:**
@@ -31,3 +27,6 @@ An example based on React Native
 In a separate terminal window run:
 
 		$ react-native start
+		
+##TODO
+	too much. cannot list. just do it !
