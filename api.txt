@@ -1,0 +1,261 @@
+游记：
+去调试
+马上下载SDK，简化API调用
+接口地址 :http://apis.baidu.com/qunartravel/travellist/travellist
+请求方法 :GET
+请求参数(header) :
+参数名	类型	必填	参数位置	描述	默认值
+apikey
+string	是	header
+API密钥
+您自己的apikey
+请求参数(urlParam) :
+参数名	类型	必填	参数位置	描述	默认值
+query
+string	否	urlParam
+关键词Encode UTF-8
+""
+page
+number	否	urlParam
+页数范围支持：1~100，每页10条数据
+收起
+1
+请求示例 :
+curl示例php示例python示例java示例C#示例ObjectC示例Swift示例
+
+curl  --get --include  'http://apis.baidu.com/qunartravel/travellist/travellist?query=%22%22&page=1'  -H 'apikey:您自己的apikey'
+1
+curl  --get --include  'http://apis.baidu.com/qunartravel/travellist/travellist?query=%22%22&page=1'  -H 'apikey:您自己的apikey'
+JSON返回示例 :
+{
+    "ret": true,
+    "errcode": 0,
+    "errmsg": "success",
+    "ver": 1,
+    "data": {
+        "books": [{
+            "bookUrl": "http://travel.qunar.com/youji/5548375?from=baidu_apistore",
+            "title": "泰国芭提雅、清迈、曼谷十天之旅",
+            "headImage": "http://img1.qunarzz.com/travel/poi/201404/11/0511be744303fa9eddb12cfb.jpg",
+            "userName": "gjdw3362",
+            "userHeadImg": "http://uicon.qunar.com/headshot/0.s.png",
+            "startTime": "7445-05-24",
+            "routeDays": 3,
+            "bookImgNum": 0,
+            "viewCount": 0,
+            "likeCount": 0,
+            "commentCount": 0,
+            "text": "萨拜翼酒店(Sabai Wing)>东芭乐园>芭堤雅水上市场>蒂芬尼人妖秀>Big C>可兰岛",
+            "elite": false
+        }],
+        "count": 1000
+    }
+}
+
+
+新闻
+去调试 查看Demo
+马上下载SDK，简化API调用
+接口地址 :http://apis.baidu.com/txapi/social/social
+请求方法 :GET
+请求参数(header) :
+参数名	类型	必填	参数位置	描述	默认值
+apikey
+string	是	header
+API密钥
+您自己的apikey
+请求参数(urlParam) :
+参数名	类型	必填	参数位置	描述	默认值
+num
+string	是	urlParam
+返回数量，最大50
+10
+page
+number	否	urlParam
+翻页
+1
+请求示例 :
+curl示例php示例python示例java示例C#示例ObjectC示例Swift示例
+
+1
+curl  --get --include  'http://apis.baidu.com/txapi/social/social?num=10&page=1'  -H 'apikey:您自己的apikey'
+JSON返回示例 :
+{
+    "0": {
+        "time": "2015-08-14 07:47",
+        "title": "女环卫工进酒店如厕 被保洁员以堵厕所为由打伤",
+        "description": "女环卫工进酒店如厕 被保洁员以堵厕所为由打伤...",
+        "picUrl": "http://photocdn.sohu.com/20150814/Img418837718_ss.jpg",
+        "url": "http://news.sohu.com/20150814/n418837716.shtml"
+    },
+    "1": {
+        "time": "2015-08-14 07:43",
+        "title": "杭州中院回应宋城实名举报事件：维持一审判决",
+        "description": "杭州中院回应宋城实名举报事件：维持一审判决...",
+        "picUrl": "http://photocdn.sohu.com/20150814/Img418835064_ss.jpg",
+        "url": "http://news.sohu.com/20150814/n418837378.shtml"
+    },
+    "2": {
+        "time": "2015-08-14 07:41",
+        "title": "腾格里污染环境案开庭 被告人：只是受领导指派",
+        "description": "腾格里污染环境案开庭 被告人：只是受领导指派...",
+        "picUrl": "http://photocdn.sohu.com/20150814/Img418822041_ss.jpg",
+        "url": "http://news.sohu.com/20150814/n418837179.shtml"
+    },
+    "3": {
+        "time": "2015-08-14 07:41",
+        "title": "江西两货车追尾 被卡男孩哭喊“叔叔救我”",
+        "description": "江西两货车追尾 被卡男孩哭喊“叔叔救我”...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418837139.shtml"
+    },
+    "4": {
+        "time": "2015-08-14 07:38",
+        "title": "咸阳一19岁少女蹊跷坠亡 纪检部门双开涉事官员",
+        "description": "咸阳一19岁少女蹊跷坠亡 纪检部门双开涉事官员...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418836871.shtml"
+    },
+    "5": {
+        "time": "2015-08-14 07:33",
+        "title": "陕西安康交警被爆每人每月要罚够5500元 否则罚款",
+        "description": "陕西安康交警被爆每人每月要罚够5500元 否则罚款...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418836390.shtml"
+    },
+    "6": {
+        "time": "2015-08-14 07:32",
+        "title": "男子信用卡还款被多扣800元 银行：系事出有因",
+        "description": "男子信用卡还款被多扣800元 银行：系事出有因...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418836351.shtml"
+    },
+    "7": {
+        "time": "2015-08-14 07:30",
+        "title": "1.83万名西部计划志愿者奔赴基层开展志愿服务",
+        "description": "1.83万名西部计划志愿者奔赴基层开展志愿服务...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418836253.shtml"
+    },
+    "8": {
+        "time": "2015-08-14 07:29",
+        "title": "暴雨致福鼎严重内涝 市民：从未见过这么大的洪水",
+        "description": "暴雨致福鼎严重内涝 市民：从未见过这么大的洪水...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418836169.shtml"
+    },
+    "9": {
+        "time": "2015-08-14 07:24",
+        "title": "女子身中7刀死亡鉴定为自杀：当地公安将重新鉴定",
+        "description": "女子身中7刀死亡鉴定为自杀：当地公安将重新鉴定...",
+        "picUrl": "",
+        "url": "http://news.sohu.com/20150814/n418835791.shtml"
+    },
+    "code": 200,
+    "msg": "ok"
+}
+备注 :
+关于jsonArray的问题，已在api.huceo.com更新。
+
+API调试工具 :去调试 查看Demo
+马上下载SDK，简化API调用
+接口地址 :http://apis.baidu.com/txapi/keji/keji
+请求方法 :GET
+请求参数(header) :
+参数名	类型	必填	参数位置	描述	默认值
+apikey
+string	是	header
+API密钥
+您自己的apikey
+请求参数(urlParam) :
+参数名	类型	必填	参数位置	描述	默认值
+num
+number	是	urlParam
+返回文章数量
+10
+page
+number	否	urlParam
+文章分页
+1
+请求示例 :
+curl示例php示例python示例java示例C#示例ObjectC示例Swift示例
+
+1
+curl  --get --include  'http://apis.baidu.com/txapi/keji/keji?num=10&page=1'  -H 'apikey:您自己的apikey'
+JSON返回示例 :
+{
+    "0": {
+        "time": "2015-09-09 07:29",
+        "title": "阿里巴巴下调第二财季GMV预期致股价逆市下跌",
+        "description": "阿里巴巴下调第二财季GMV预期致股价逆市下跌...",
+        "picUrl": "http://img1.gtimg.com/tech/pics/hv1/221/175/1919/124827821.jpg",
+        "url": "http://tech.qq.com/a/20150909/009294.htm"
+    },
+    "1": {
+        "time": "2015-09-09 07:22",
+        "title": "音乐巨头Pandora创新：付一美元免广告听一天",
+        "description": "音乐巨头Pandora创新：付一美元免广告听一天...",
+        "picUrl": "http://mat1.gtimg.com/tech/00Jamesdu/2014/index/remark/2.png",
+        "url": "http://tech.qq.com/a/20150909/009019.htm"
+    },
+    "2": {
+        "time": "2015-09-09 07:15",
+        "title": "奇虎酷派冲突凸显中国智能手机市场竞争惨烈",
+        "description": "奇虎酷派冲突凸显中国智能手机市场竞争惨烈...",
+        "picUrl": "http://img1.gtimg.com/tech/pics/hv1/28/173/1919/124827118.jpg",
+        "url": "http://tech.qq.com/a/20150909/008706.htm"
+    },
+    "3": {
+        "time": "2015-09-09 07:09",
+        "title": "苹果微软与美国政府展开数据访问法律大战",
+        "description": "苹果微软与美国政府展开数据访问法律大战...",
+        "picUrl": "http://mat1.gtimg.com/tech/00Jamesdu/2014/index/remark/2.png",
+        "url": "http://tech.qq.com/a/20150909/008461.htm"
+    },
+    "4": {
+        "time": "2015-09-09 07:02",
+        "title": "iPhone也创新才尽？不妨学学这些炫酷概念机",
+        "description": "iPhone也创新才尽？不妨学学这些炫酷概念机...",
+        "picUrl": "http://img1.gtimg.com/tech/pics/hv1/81/171/1919/124826661.jpg",
+        "url": "http://tech.qq.com/a/20150909/007852.htm"
+    },
+    "5": {
+        "time": "2015-09-09 06:12",
+        "title": "美国国税局驳回雅虎免税分拆阿里股权计划",
+        "description": "美国国税局驳回雅虎免税分拆阿里股权计划...",
+        "picUrl": "http://mat1.gtimg.com/tech/00Jamesdu/2014/index/remark/2.png",
+        "url": "http://tech.qq.com/a/20150909/006970.htm"
+    },
+    "6": {
+        "time": "2015-09-09 05:50",
+        "title": "阿里市值缩水腾讯成亚洲最大互联网公司",
+        "description": "阿里市值缩水腾讯成亚洲最大互联网公司...",
+        "picUrl": "http://img1.gtimg.com/tech/pics/hv1/127/170/1919/124826452.jpg",
+        "url": "http://tech.qq.com/a/20150909/006447.htm"
+    },
+    "7": {
+        "time": "2015-09-09 05:13",
+        "title": "Airbnb的LOGO原来出自二十多年前商标设计图册",
+        "description": "Airbnb的LOGO原来出自二十多年前商标设计图册...",
+        "picUrl": "http://mat1.gtimg.com/tech/00Jamesdu/2014/index/remark/2.png",
+        "url": "http://tech.qq.com/a/20150909/005811.htm"
+    },
+    "8": {
+        "time": "2015-09-09 01:42",
+        "title": "“滴滴打车”正式更名为“滴滴出行”",
+        "description": "“滴滴打车”正式更名为“滴滴出行”...",
+        "picUrl": "http://img1.gtimg.com/tech/pics/hv1/186/156/1919/124822941.jpg",
+        "url": "http://tech.qq.com/a/20150909/001884.htm"
+    },
+    "9": {
+        "time": "2015-09-08 22:32",
+        "title": "酷派高管：周鸿&#31054;出尔反尔 曾欢迎乐视入股",
+        "description": "酷派高管：周鸿&#31054;出尔反尔 曾欢迎乐视入股...",
+        "picUrl": "http://img1.gtimg.com/tech/pics/hv1/85/152/1919/124821820.jpg",
+        "url": "http://tech.qq.com/a/20150908/059113.htm"
+    },
+    "code": 200,
+    "msg": "ok"
+}
+备注 :
+关于jsonArray的问题，已在api.huceo.com更新。
