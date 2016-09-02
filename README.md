@@ -30,3 +30,4 @@ In a separate terminal window run:
 		
 ##TODO
 	too much. cannot list. just do it !
+	这个要做的还很多很多，学习的路也还很长很长。只是个学习的例子。fighting ！
