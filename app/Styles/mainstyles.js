@@ -90,6 +90,18 @@ const styles = StyleSheet.create({
     color: '#6435c9',
     padding: 10,
   },
+  tab: {
+    height: 49,
+    backgroundColor: 'rgba(227, 80, 74, 1)',
+    alignItems: 'center',
+  },
+  tabIcon: {
+    width: 35,
+    height: 35,
+    resizeMode: 'stretch',
+    margin: 6,
+    marginTop: 8,
+  },
 });
 
 export { styles as default };

@@ -26,11 +26,10 @@ class News extends React.Component {
                 render() {
                       return (
                       <ScrollableTabView
-                      style = {{marginTop: 10}}
+                      style = {{marginTop: 20}}
                       tabBarPosition='top'
                       locked={false} //如果被锁定只能点击标题切换，否则可以用手指滚动下面页面进行切换
                       initialPage={0}
-                      contentProps= {{bounces: false}}
                       /**tabBarUnderlineColor(String)
                       设置DefaultTabBar和ScrollableTabBarTab选中时下方横线的颜色
                       tabBarBackgroundColor(String)
@@ -42,10 +41,11 @@ class News extends React.Component {
                       tabBarTextStyle(Object)
                       设置Tab文字的样式，比如字号、字体等
                       */
-                      tabBarUnderlineColor='#FF0000'
-                      tabBarBackgroundColor='#FFFFFF'
-                      tabBarActiveTextColor='#9B30FF'
-                      tabBarInactiveTextColor='#7A67EE'
+                      tabBarTextStyle={{fontWeight:'400',fontSize:25}}
+                      tabBarUnderlineColor='rgba(0, 160, 100, 1)'
+                      tabBarBackgroundColor='rgba(51, 133, 255, 1)'
+                      tabBarActiveTextColor='rgba(226, 238, 255, 1)'
+                      tabBarInactiveTextColor='rgba(226, 238, 255, 1)'
                       // 设置“点击”Tab时，视图切换是否有动画，默认为false（即：有动画效果）
                       scrollWithoutAnimation={false}
                       onChangeTab={(obj) => {
