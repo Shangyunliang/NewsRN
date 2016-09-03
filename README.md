@@ -1,8 +1,9 @@
 # NewsRn
 An example based on React Native
 
-
-![NewsRn icon](./images/1.png)
+![NewsRn icon](./images/2.png)
+![NewsRn icon](./images/3.png)
+![NewsRn icon](./images/4.png)
 
 ## Set up
 1. **Clone the repo:**
