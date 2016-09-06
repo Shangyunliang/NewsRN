@@ -8,7 +8,7 @@ An example based on React Native
 ## Set up
 1. **Clone the repo:**
 		$ git clone https://github.com/Shangyunliang/NewsRN.git  
-		$ cd DoubanMovie
+		$ cd NewsRN
 	
 1. **Install dependencies:**
 
